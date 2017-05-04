@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <!--******************************** 1.PROTOCOL TEAM BEGIN -->
+    <integer ca_settings_on="1"/>
+    <string enable_sdn="true"/>
+
+    <!--******************************** 1.PROTOCOL TEAM END -->
+    <!--******************************** 2.APP MANUFACTURE TEAM BEGIN -->
+
+    <!--******************************** 2.APP MANUFACTURE TEAM END -->
+    <!--******************************** 3.BASEAPP TEAM BEGIN -->
+    <!-- BEGIN PN:DTS2015121510939, Added by liqing lWX288597, 2015/12/16 -->
+    <integer settings.system.androidBeam="1"/>
+    <!-- END PN:DTS2015121510939, Added by liqing lWX288597, 2015/12/16 -->
+    <!-- DTS2015082106929 chenlu/00350830 20150821 begin -->
+    <!-- delate white_languages-->
+    <!-- DTS2015082106929 chenlu/00350830 20150821 end -->
+    <!-- DTS2015030902399 z00169648 20150309 begin -->
+    <!-- DTS2015030902399 z00169648 20150309  end -->
+<!-- BEGIN PN:DTS2016040802145, Modified by liyongzhe lWX274878, 2016/04/08 -->
+<!-- BEGIN PN:DTS2016072504399, Modified by bWX205963, 2016/08/03 -->
+<!-- BEGIN PN:DTS2016100900912, Modified by bWX205963, 2016/10/11 -->
+<string hw_def_theme="/data/hw_init/version/region_comm/oversea/themes/Modern.hwt" reset="true"/>
+<!-- END PN:DTS2016100900912, Modified by bWX205963, 2016/10/11 -->
+<!-- END PN:DTS2016072504399, Modified by bWX205963, 2016/08/03 -->
+<!-- BEGIN PN:DTS2016100900912, Modified by bWX205963, 2016/10/11 -->
+<string hw_theme_sort="Modern##BlackLabel" reset="true"/>
+<!-- END PN:DTS2016100900912, Modified by bWX205963, 2016/10/11 -->
+<!-- END PN:DTS2016040802145, Modified by liyongzhe lWX274878, 2016/04/08 -->
+    <!-- BEGIN PN:DTS2016062109352, Added by bWX205963, 2016/07/04 -->
+    <string theme_no_online="true"/>
+    <!-- END PN:DTS2016062109352, Added by bWX205963, 2016/07/04 -->
+    <!-- BEGIN PN:DTS2016112902241, Added by jwx341103, 2016/11/29 -->
+    <string custom_certify_picture="/data/hw_init/product/media/Oversea_L21.png" reset="true" />
+    <!-- END PN:DTS2016112902241, Added by jwx341103, 2016/11/29 -->
+    <!--******************************** 3.BASEAPP TEAM END -->
+    <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
+
+    <!--******************************** 4.MULTI-MEDIA TEAM END -->
+    <!--******************************** 5.FRAMEWORK TEAM BEGIN -->
+
+    <!--******************************** 5.FRAMEWORK TEAM END -->
+    <!--******************************** 6.DATA SERVICE TEAM BEGIN -->
+
+    <!--******************************** 6.DATA SERVICE TEAM END -->
+    <!--******************************** 7.APPLET TEAM BEGIN -->
+
+    <!--******************************** 7.APPLET TEAM END -->
+    <!--******************************** 8.CUSTOM TEAM BEGIN -->
+    <!--******************************** 8.CUSTOM TEAM END -->
+    <!--BEGIN PN: DTS2016012506772 , Added by l00292418, 2016/01/25-->
+    <integer settings.global.wifi_sleep_policy="2"/>
+    <!--END PN: DTS2016012506772 , Added by l00292418, 2016/01/25-->
+</resources>

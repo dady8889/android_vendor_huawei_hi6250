@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <tag>
+        <apk>
+        <!--BEGIN PN: AR0005EJCI  , Added by fwx335393, 2016/09/13 -->
+        /system/priv-app/CellBroadcastReceiver.apk;
+        <!--END PN: AR0005EJCI  , Added by fwx335393, 2016/09/13-->
+       <!--BEGIN PN:DTS2016093001994, Added by twx287320, 2016/09/30 -->
+       /data/hw_init/system/app/HwIms.apk;
+       <!--END PN:DTS2016093001994, Added by twx287320, 2016/09/30 -->
+       </apk>
+    </tag>
