@@ -1,1 +1,0 @@
-cloud_ota_apn_Version=02.00.004

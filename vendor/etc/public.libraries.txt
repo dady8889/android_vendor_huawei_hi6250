@@ -1,5 +1,0 @@
-libbastetmanager.so
-
-
-liblog.so
-libteec.so

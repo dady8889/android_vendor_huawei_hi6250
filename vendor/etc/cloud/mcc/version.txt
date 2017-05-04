@@ -1,1 +1,0 @@
-cloud_ota_mcc_Version=00.00.011
