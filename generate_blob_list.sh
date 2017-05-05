@@ -12,14 +12,14 @@ OUTPUT=device-proprietary-files.txt
 EOF
 
 # Count all files
-COUNT=$(find . -mindepth 2 -not -type d -not -path '*/\.*' -not -name "*.apk" | wc -l)
+COUNT=$(find . -mindepth 2 -not -type d -and -not -path '*/\.*' -and -not -name "*.apk" -and -not -name "*.mk" -and -not -name "*.bp" | wc -l)
 
-echo "!REMEMBER apks, hidden files, hidden directories or files in current directory are NOT included!"
+echo "!REMEMBER apk, bp, mk, hidden files, hidden directories or files in current directory are NOT included!"
 echo "Generating proprietary files list..."
 
-# Iterate all subdirectories except current directory, apk files, hidden files
+# Iterate all subdirectories except current directory, [apk, bp, mk] files, hidden files
 PROGRESS=0
-find . -mindepth 2 -not -type d -not -path '*/\.*' -not -name "*.apk" -print0 | while IFS= read -r -d '' file
+find . -mindepth 2 -not -type d -and -not -path '*/\.*' -and -not -name "*.apk" -and -not -name "*.mk" -and -not -name "*.bp" -print0 | while IFS= read -r -d '' file
 do
     # Get file path
     BLOB=$(echo "$file" | cut -c 3-)

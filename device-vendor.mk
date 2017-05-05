@@ -19,117 +19,81 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/bin/993e26b8-0273-408e-98d3-60c997c37121.sec:system/bin/993e26b8-0273-408e-98d3-60c997c37121.sec \
     vendor/huawei/hi6250/bin/gpsdaemon:system/bin/gpsdaemon \
     vendor/huawei/hi6250/bin/exfatfsck:system/bin/exfatfsck \
-    vendor/huawei/hi6250/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/huawei/hi6250/bin/debuggerd64:system/bin/debuggerd64 \
     vendor/huawei/hi6250/bin/perfhub:system/bin/perfhub \
     vendor/huawei/hi6250/bin/resize.f2fs:system/bin/resize.f2fs \
-    vendor/huawei/hi6250/bin/logwrapper:system/bin/logwrapper \
     vendor/huawei/hi6250/bin/data_cleaner:system/bin/data_cleaner \
     vendor/huawei/hi6250/bin/shs:system/bin/shs \
-    vendor/huawei/hi6250/bin/e2fsck:system/bin/e2fsck \
-    vendor/huawei/hi6250/bin/mkntfs:system/bin/mkntfs \
-    vendor/huawei/hi6250/bin/hostapd:system/bin/hostapd \
-    vendor/huawei/hi6250/bin/sdcard:system/bin/sdcard \
     vendor/huawei/hi6250/bin/fpc_1022_ta.sec:system/bin/fpc_1022_ta.sec \
-    vendor/huawei/hi6250/bin/schedtest:system/bin/schedtest \
     vendor/huawei/hi6250/bin/fpc_1021_ta_venus.sec:system/bin/fpc_1021_ta_venus.sec \
-    vendor/huawei/hi6250/bin/make_f2fs:system/bin/make_f2fs \
     vendor/huawei/hi6250/bin/wpa_supplicant_hisi:system/bin/wpa_supplicant_hisi \
-    vendor/huawei/hi6250/bin/tzdatacheck:system/bin/tzdatacheck \
     vendor/huawei/hi6250/bin/shex:system/bin/shex \
     vendor/huawei/hi6250/bin/bfgin_cmd_app:system/bin/bfgin_cmd_app \
     vendor/huawei/hi6250/bin/r:system/bin/r \
     vendor/huawei/hi6250/bin/octty:system/bin/octty \
     vendor/huawei/hi6250/bin/eventcat:system/bin/eventcat \
     vendor/huawei/hi6250/bin/fm_server_hisi:system/bin/fm_server_hisi \
-    vendor/huawei/hi6250/bin/make_ext4fs:system/bin/make_ext4fs \
     vendor/huawei/hi6250/bin/start_connectivity_hisi:system/bin/start_connectivity_hisi \
     vendor/huawei/hi6250/bin/diagserver:system/bin/diagserver \
     vendor/huawei/hi6250/bin/sleeplogcat:system/bin/sleeplogcat \
     vendor/huawei/hi6250/bin/gnss_supl20clientd_hisi:system/bin/gnss_supl20clientd_hisi \
     vendor/huawei/hi6250/bin/checkntfs:system/bin/checkntfs \
-    vendor/huawei/hi6250/bin/gatekeeperd:system/bin/gatekeeperd \
-    vendor/huawei/hi6250/bin/blkid:system/bin/blkid \
     vendor/huawei/hi6250/bin/modemlogcat_lte:system/bin/modemlogcat_lte \
     vendor/huawei/hi6250/bin/fpc_1021_ta.sec:system/bin/fpc_1021_ta.sec \
     vendor/huawei/hi6250/bin/rild:system/bin/rild \
     vendor/huawei/hi6250/bin/bastetd:system/bin/bastetd \
     vendor/huawei/hi6250/bin/hwnffserver:system/bin/hwnffserver \
-    vendor/huawei/hi6250/bin/toolbox:system/bin/toolbox \
     vendor/huawei/hi6250/bin/883890ba-3ef8-4f0b-9c02-f5874acbf2ff.sec:system/bin/883890ba-3ef8-4f0b-9c02-f5874acbf2ff.sec \
     vendor/huawei/hi6250/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
-    vendor/huawei/hi6250/bin/debuggerd:system/bin/debuggerd \
     vendor/huawei/hi6250/bin/fd1bbfb2-9a62-4b27-8fdb-a503529076af.sec:system/bin/fd1bbfb2-9a62-4b27-8fdb-a503529076af.sec \
     vendor/huawei/hi6250/bin/silead_6185_ta.sec:system/bin/silead_6185_ta.sec \
     vendor/huawei/hi6250/bin/hiscoutmanager:system/bin/hiscoutmanager \
     vendor/huawei/hi6250/bin/HwCamCfgSvr:system/bin/HwCamCfgSvr \
     vendor/huawei/hi6250/bin/radvd:system/bin/radvd \
-    vendor/huawei/hi6250/bin/fsck.f2fs:system/bin/fsck.f2fs \
-    vendor/huawei/hi6250/bin/keystore:system/bin/keystore \
     vendor/huawei/hi6250/bin/wpa_cli:system/bin/wpa_cli \
-    vendor/huawei/hi6250/bin/sgdisk:system/bin/sgdisk \
-    vendor/huawei/hi6250/bin/vold:system/bin/vold \
-    vendor/huawei/hi6250/bin/reboot:system/bin/reboot \
-    vendor/huawei/hi6250/bin/uncrypt:system/bin/uncrypt \
     vendor/huawei/hi6250/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec:system/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec \
     vendor/huawei/hi6250/bin/isplogcat:system/bin/isplogcat \
     vendor/huawei/hi6250/bin/gnss_control_hisi:system/bin/gnss_control_hisi \
-    vendor/huawei/hi6250/bin/netd:system/bin/netd \
     vendor/huawei/hi6250/bin/factory_log_service:system/bin/factory_log_service \
-    vendor/huawei/hi6250/bin/ndc:system/bin/ndc \
     vendor/huawei/hi6250/bin/wifichrdump:system/bin/wifichrdump \
     vendor/huawei/hi6250/bin/atcmdserver:system/bin/atcmdserver \
     vendor/huawei/hi6250/bin/dhcpcd:system/bin/dhcpcd \
     vendor/huawei/hi6250/bin/knuckle_gestures.bin:system/bin/knuckle_gestures.bin \
     vendor/huawei/hi6250/bin/hostapd_hisi:system/bin/hostapd_hisi \
     vendor/huawei/hi6250/bin/9b17660b-8968-4eed-917e-dd32379bd548.sec:system/bin/9b17660b-8968-4eed-917e-dd32379bd548.sec \
-    vendor/huawei/hi6250/bin/mkexfatfs:system/bin/mkexfatfs \
     vendor/huawei/hi6250/bin/gnss_engine_hisi:system/bin/gnss_engine_hisi \
-    vendor/huawei/hi6250/bin/lmkd:system/bin/lmkd \
     vendor/huawei/hi6250/bin/oam_hisi:system/bin/oam_hisi \
     vendor/huawei/hi6250/bin/iked:system/bin/iked \
     vendor/huawei/hi6250/bin/hwnff:system/bin/hwnff \
     vendor/huawei/hi6250/bin/fwrt_emmc_screen_test:system/bin/fwrt_emmc_screen_test \
     vendor/huawei/hi6250/bin/pppoe:system/bin/pppoe \
     vendor/huawei/hi6250/bin/thermal-daemon:system/bin/thermal-daemon \
-    vendor/huawei/hi6250/bin/run-as:system/bin/run-as \
     vendor/huawei/hi6250/bin/wifiwakeupsrc:system/bin/wifiwakeupsrc \
     vendor/huawei/hi6250/bin/netcfg:system/bin/netcfg \
     vendor/huawei/hi6250/bin/tui_daemon:system/bin/tui_daemon \
     vendor/huawei/hi6250/bin/fpc_1021_ta_berlin.sec:system/bin/fpc_1021_ta_berlin.sec \
-    vendor/huawei/hi6250/bin/fsck_msdos:system/bin/fsck_msdos \
     vendor/huawei/hi6250/bin/chargemonitor:system/bin/chargemonitor \
-    vendor/huawei/hi6250/bin/logd:system/bin/logd \
     vendor/huawei/hi6250/bin/chr_logd:system/bin/chr_logd \
-    vendor/huawei/hi6250/bin/mdnsd:system/bin/mdnsd \
-    vendor/huawei/hi6250/bin/secdiscard:system/bin/secdiscard \
-    vendor/huawei/hi6250/bin/bootstat:system/bin/bootstat \
     vendor/huawei/hi6250/bin/f2fsdefrag:system/bin/f2fsdefrag \
     vendor/huawei/hi6250/bin/ntfs-3g:system/bin/ntfs-3g \
-    vendor/huawei/hi6250/bin/applypatch:system/bin/applypatch \
     vendor/huawei/hi6250/bin/secure_storage:system/bin/secure_storage \
-    vendor/huawei/hi6250/bin/vdc:system/bin/vdc \
     vendor/huawei/hi6250/bin/wl:system/bin/wl \
     vendor/huawei/hi6250/bin/goodix_3288_ta.sec:system/bin/goodix_3288_ta.sec \
     vendor/huawei/hi6250/bin/tlogcat:system/bin/tlogcat \
     vendor/huawei/hi6250/bin/dhcp6s:system/bin/dhcp6s \
     vendor/huawei/hi6250/bin/wpa_cli_hisi:system/bin/wpa_cli_hisi \
-    vendor/huawei/hi6250/bin/grep:system/bin/grep \
     vendor/huawei/hi6250/bin/fpc_1268_ta.sec:system/bin/fpc_1268_ta.sec \
     vendor/huawei/hi6250/bin/pmom_cat:system/bin/pmom_cat \
     vendor/huawei/hi6250/bin/fingerprintd:system/bin/fingerprintd \
     vendor/huawei/hi6250/bin/79b77788-9789-4a7a-a2be-b60155eef5f4.sec:system/bin/79b77788-9789-4a7a-a2be-b60155eef5f4.sec \
     vendor/huawei/hi6250/bin/868ccafb-794b-46c6-b5c4-9f1462de4e02.sec:system/bin/868ccafb-794b-46c6-b5c4-9f1462de4e02.sec \
     vendor/huawei/hi6250/bin/hw_cdmamodem_service:system/bin/hw_cdmamodem_service \
-    vendor/huawei/hi6250/bin/resize2fs:system/bin/resize2fs \
     vendor/huawei/hi6250/bin/fpc_1021_ta_sw15.sec:system/bin/fpc_1021_ta_sw15.sec \
     vendor/huawei/hi6250/bin/defragd:system/bin/defragd \
     vendor/huawei/hi6250/bin/chargelogcat:system/bin/chargelogcat \
     vendor/huawei/hi6250/bin/e4defrag:system/bin/e4defrag \
-    vendor/huawei/hi6250/bin/sh:system/bin/sh \
     vendor/huawei/hi6250/bin/hivwserver:system/bin/hivwserver \
     vendor/huawei/hi6250/bin/syna_109A0_ta.sec:system/bin/syna_109A0_ta.sec \
-    vendor/huawei/hi6250/bin/logcat:system/bin/logcat \
     vendor/huawei/hi6250/bin/fpc_1022_ta_sw20.sec:system/bin/fpc_1022_ta_sw20.sec \
     vendor/huawei/hi6250/vendor/lib64/libstagefrighthw.so:system/vendor/lib64/libstagefrighthw.so \
     vendor/huawei/hi6250/vendor/lib64/libbastet.so:system/vendor/lib64/libbastet.so \
@@ -853,6 +817,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/vendor/lib/libispenhnc.so:system/vendor/lib/libispenhnc.so \
     vendor/huawei/hi6250/vendor/lib/libcamera_algo.so:system/vendor/lib/libcamera_algo.so \
     vendor/huawei/hi6250/vendor/lib/libasd.so:system/vendor/lib/libasd.so \
+    vendor/huawei/hi6250/vendor/etc/event-log-tags:system/vendor/etc/event-log-tags \
+    vendor/huawei/hi6250/vendor/etc/public.libraries.txt:system/vendor/etc/public.libraries.txt \
+    vendor/huawei/hi6250/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/huawei/hi6250/vendor/framework/com.huawei.audioalgo.jar:system/vendor/framework/com.huawei.audioalgo.jar \
     vendor/huawei/hi6250/vendor/framework/hwpostcamera.jar:system/vendor/framework/hwpostcamera.jar \
     vendor/huawei/hi6250/vendor/firmware/fw_bcm43455_apsta_hw.bin:system/vendor/firmware/fw_bcm43455_apsta_hw.bin \
@@ -922,7 +889,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/gnss/config/gnss_lss_slp_thirdparty.p12:system/etc/gnss/config/gnss_lss_slp_thirdparty.p12 \
     vendor/huawei/hi6250/etc/tracking/targettracking.xml:system/etc/tracking/targettracking.xml \
     vendor/huawei/hi6250/etc/vold.fstab:system/etc/vold.fstab \
-    vendor/huawei/hi6250/etc/fonts.xml:system/etc/fonts.xml \
     vendor/huawei/hi6250/etc/cfg_venus_dl00_hisi.ini:system/etc/cfg_venus_dl00_hisi.ini \
     vendor/huawei/hi6250/etc/cfg_venus_l31_hisi.ini:system/etc/cfg_venus_l31_hisi.ini \
     vendor/huawei/hi6250/etc/cfg_berlin_l23l_hisi.ini:system/etc/cfg_berlin_l23l_hisi.ini \
@@ -1099,7 +1065,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/charger/1080x1920/number_7.png:system/etc/charger/1080x1920/number_7.png \
     vendor/huawei/hi6250/etc/charger/1080x1920/charging_04.png:system/etc/charger/1080x1920/charging_04.png \
     vendor/huawei/hi6250/etc/charger/1080x1920/battery_06.png:system/etc/charger/1080x1920/battery_06.png \
-    vendor/huawei/hi6250/etc/clatd.conf:system/etc/clatd.conf \
     vendor/huawei/hi6250/etc/multi_task_config.xml:system/etc/multi_task_config.xml \
     vendor/huawei/hi6250/etc/cfg_nemo_l22e_hisi.ini:system/etc/cfg_nemo_l22e_hisi.ini \
     vendor/huawei/hi6250/etc/chargemonitor_config.xml:system/etc/chargemonitor_config.xml \
@@ -1169,8 +1134,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/dts/bluetooth_3:system/etc/dts/bluetooth_3 \
     vendor/huawei/hi6250/etc/dts/speaker_4:system/etc/dts/speaker_4 \
     vendor/huawei/hi6250/etc/dts/lineout_6:system/etc/dts/lineout_6 \
-    vendor/huawei/hi6250/etc/seccomp_policy/mediaextractor-seccomp.policy:system/etc/seccomp_policy/mediaextractor-seccomp.policy \
-    vendor/huawei/hi6250/etc/seccomp_policy/mediacodec-seccomp.policy:system/etc/seccomp_policy/mediacodec-seccomp.policy \
     vendor/huawei/hi6250/etc/cfg_nemo_l23_hisi.ini:system/etc/cfg_nemo_l23_hisi.ini \
     vendor/huawei/hi6250/etc/wifi/p2p_supplicant_hisi.conf:system/etc/wifi/p2p_supplicant_hisi.conf \
     vendor/huawei/hi6250/etc/wifi/p2p_supplicant.conf:system/etc/wifi/p2p_supplicant.conf \
@@ -1186,11 +1149,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/cfg_berlin_l22_hisi.ini:system/etc/cfg_berlin_l22_hisi.ini \
     vendor/huawei/hi6250/etc/cfg_warsaw_lx2_hisi.ini:system/etc/cfg_warsaw_lx2_hisi.ini \
     vendor/huawei/hi6250/etc/HwResourceManager.xml:system/etc/HwResourceManager.xml \
-    vendor/huawei/hi6250/etc/hosts:system/etc/hosts \
     vendor/huawei/hi6250/etc/cfg_nemo_al30_hisi.ini:system/etc/cfg_nemo_al30_hisi.ini \
     vendor/huawei/hi6250/etc/cfg_nemo_l21e_hisi.ini:system/etc/cfg_nemo_l21e_hisi.ini \
     vendor/huawei/hi6250/etc/cfg_warsaw_lx3_hisi.ini:system/etc/cfg_warsaw_lx3_hisi.ini \
-    vendor/huawei/hi6250/etc/mkshrc:system/etc/mkshrc \
     vendor/huawei/hi6250/etc/device_monitor_for_nff.conf:system/etc/device_monitor_for_nff.conf \
     vendor/huawei/hi6250/etc/vdec_atlas.cfg:system/etc/vdec_atlas.cfg \
     vendor/huawei/hi6250/etc/pwrprof.xml:system/etc/pwrprof.xml \
@@ -2149,25 +2110,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/cloud/mcc/404/404_0:system/etc/cloud/mcc/404/404_0 \
     vendor/huawei/hi6250/etc/cloud/mcc/655/655_0:system/etc/cloud/mcc/655/655_0 \
     vendor/huawei/hi6250/etc/cfg_berlin_tl00a_hisi.ini:system/etc/cfg_berlin_tl00a_hisi.ini \
-    vendor/huawei/hi6250/etc/preloaded-classes:system/etc/preloaded-classes \
     vendor/huawei/hi6250/etc/component_version.txt:system/etc/component_version.txt \
     vendor/huawei/hi6250/etc/factory_modem.cfg:system/etc/factory_modem.cfg \
     vendor/huawei/hi6250/etc/cfg_warsaw_tl00_hisi.ini:system/etc/cfg_warsaw_tl00_hisi.ini \
-    vendor/huawei/hi6250/etc/event-log-tags:system/etc/event-log-tags \
-    vendor/huawei/hi6250/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
-    vendor/huawei/hi6250/etc/init/uncrypt.rc:system/etc/init/uncrypt.rc \
-    vendor/huawei/hi6250/etc/init/debuggerd64.rc:system/etc/init/debuggerd64.rc \
-    vendor/huawei/hi6250/etc/init/vdc.rc:system/etc/init/vdc.rc \
-    vendor/huawei/hi6250/etc/init/netd.rc:system/etc/init/netd.rc \
-    vendor/huawei/hi6250/etc/init/logd.rc:system/etc/init/logd.rc \
-    vendor/huawei/hi6250/etc/init/vold.rc:system/etc/init/vold.rc \
-    vendor/huawei/hi6250/etc/init/bootstat.rc:system/etc/init/bootstat.rc \
-    vendor/huawei/hi6250/etc/init/gatekeeperd.rc:system/etc/init/gatekeeperd.rc \
-    vendor/huawei/hi6250/etc/init/shex.rc:system/etc/init/shex.rc \
-    vendor/huawei/hi6250/etc/init/lmkd.rc:system/etc/init/lmkd.rc \
-    vendor/huawei/hi6250/etc/init/debuggerd.rc:system/etc/init/debuggerd.rc \
-    vendor/huawei/hi6250/etc/init/keystore.rc:system/etc/init/keystore.rc \
-    vendor/huawei/hi6250/etc/init/mdnsd.rc:system/etc/init/mdnsd.rc \
     vendor/huawei/hi6250/etc/ikedconfig/ikedconfig.ini:system/etc/ikedconfig/ikedconfig.ini \
     vendor/huawei/hi6250/etc/ikedconfig/tunnel_ike.conf:system/etc/ikedconfig/tunnel_ike.conf \
     vendor/huawei/hi6250/etc/ikedconfig/tunnel_ike_natt.conf:system/etc/ikedconfig/tunnel_ike_natt.conf \
@@ -2177,9 +2122,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/cfg_nemo_al60_hisi.ini:system/etc/cfg_nemo_al60_hisi.ini \
     vendor/huawei/hi6250/etc/cfg_nemo_al10_hisi.ini:system/etc/cfg_nemo_al10_hisi.ini \
     vendor/huawei/hi6250/etc/permissions/com.huawei.hwpostcamera.xml:system/etc/permissions/com.huawei.hwpostcamera.xml \
-    vendor/huawei/hi6250/etc/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
     vendor/huawei/hi6250/etc/permissions/com.huawei.audioalgo.xml:system/etc/permissions/com.huawei.audioalgo.xml \
-    vendor/huawei/hi6250/etc/public.libraries.txt:system/etc/public.libraries.txt \
     vendor/huawei/hi6250/etc/cfg_warsaw_l03t_hisi.ini:system/etc/cfg_warsaw_l03t_hisi.ini \
     vendor/huawei/hi6250/etc/jankbdcfg.json:system/etc/jankbdcfg.json \
     vendor/huawei/hi6250/etc/jankcfg.json:system/etc/jankcfg.json \
@@ -2230,7 +2173,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/camera/multidenoise/default/multiframe.xml:system/etc/camera/multidenoise/default/multiframe.xml \
     vendor/huawei/hi6250/etc/camera/mmi7cm/default/mmi7cmConfig.xml:system/etc/camera/mmi7cm/default/mmi7cmConfig.xml \
     vendor/huawei/hi6250/etc/cfg_prague_l22_hisi.ini:system/etc/cfg_prague_l22_hisi.ini \
-    vendor/huawei/hi6250/etc/NOTICE.html.gz:system/etc/NOTICE.html.gz \
     vendor/huawei/hi6250/etc/cfg_venus_l53_hisi.ini:system/etc/cfg_venus_l53_hisi.ini \
     vendor/huawei/hi6250/etc/hsmConfig/hsm_config_commercial.conf:system/etc/hsmConfig/hsm_config_commercial.conf \
     vendor/huawei/hi6250/etc/hsmConfig/hsm_config.conf:system/etc/hsmConfig/hsm_config.conf \
@@ -2245,13 +2187,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/modemConfig/balong/basic_name:system/etc/modemConfig/balong/basic_name \
     vendor/huawei/hi6250/etc/modemConfig/hids_ue_msg.cfg:system/etc/modemConfig/hids_ue_msg.cfg \
     vendor/huawei/hi6250/etc/cfg_warsaw_lx2j_hisi.ini:system/etc/cfg_warsaw_lx2j_hisi.ini \
-    vendor/huawei/hi6250/etc/compiled-classes:system/etc/compiled-classes \
     vendor/huawei/hi6250/etc/accelpackages.xml:system/etc/accelpackages.xml \
-    vendor/huawei/hi6250/etc/NOTICE.txt:system/etc/NOTICE.txt \
     vendor/huawei/hi6250/etc/cfg_prague_l23_hisi.ini:system/etc/cfg_prague_l23_hisi.ini \
-    vendor/huawei/hi6250/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/huawei/hi6250/usr/idc/cyttsp4_mt.idc:system/usr/idc/cyttsp4_mt.idc \
-    vendor/huawei/hi6250/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
     vendor/huawei/hi6250/usr/icu/icudt56l.dat:system/usr/icu/icudt56l.dat \
     vendor/huawei/hi6250/global/globalAutoAdapt-conf.xml:system/global/globalAutoAdapt-conf.xml \
     vendor/huawei/hi6250/global/xml/hw_defaults.xml:system/global/xml/hw_defaults.xml \
