@@ -21,7 +21,7 @@ echo "Generating proprietary files list..."
 PROGRESS=0
 find . -mindepth 2 -not -type d -not -path '*/\.*' -not -name "*.apk" -print0 | while IFS= read -r -d '' file
 do
-	# Get file path
+    # Get file path
     BLOB=$(echo "$file" | cut -c 3-)
 
     # Append blob to output
