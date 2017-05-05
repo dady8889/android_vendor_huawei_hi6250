@@ -929,7 +929,6 @@ etc/tp_test_parameters/berlin_lens_input_format.csv
 etc/tp_test_parameters/prague_truly_input_format.csv
 etc/tp_test_parameters/Nemo_toptouch_input_format.csv
 etc/tp_test_parameters/Nemo_parameters.csv
-etc/media_codecs_google_telephony.xml
 etc/media_codecs_performance.xml
 etc/security/mac_permissions.xml
 etc/cfg_warsaw_al00_hisi.ini
@@ -1085,7 +1084,6 @@ etc/charger/1080x1920/clric_39.png
 etc/charger/1080x1920/number_7.png
 etc/charger/1080x1920/charging_04.png
 etc/charger/1080x1920/battery_06.png
-etc/media_codecs_google_video.xml
 etc/clatd.conf
 etc/multi_task_config.xml
 etc/cfg_nemo_l22e_hisi.ini
@@ -1167,7 +1165,6 @@ etc/wifi/hostapd_hisi.conf
 etc/wifi/wpa_supplicant_overlay.conf
 etc/wifi/wpa_supplicant_hisi.conf
 etc/cfg_berlin_al30_hisi.ini
-etc/media_codecs_google_audio.xml
 etc/cfg_berlin_l21l_hisi.ini
 etc/cfg_berlin_al40_hisi.ini
 etc/HwFrameworkNormalization.xml

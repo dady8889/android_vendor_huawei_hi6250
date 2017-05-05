@@ -944,7 +944,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/tp_test_parameters/prague_truly_input_format.csv:system/etc/tp_test_parameters/prague_truly_input_format.csv \
     vendor/huawei/hi6250/etc/tp_test_parameters/Nemo_toptouch_input_format.csv:system/etc/tp_test_parameters/Nemo_toptouch_input_format.csv \
     vendor/huawei/hi6250/etc/tp_test_parameters/Nemo_parameters.csv:system/etc/tp_test_parameters/Nemo_parameters.csv \
-    vendor/huawei/hi6250/etc/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
     vendor/huawei/hi6250/etc/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
     vendor/huawei/hi6250/etc/security/mac_permissions.xml:system/etc/security/mac_permissions.xml \
     vendor/huawei/hi6250/etc/cfg_warsaw_al00_hisi.ini:system/etc/cfg_warsaw_al00_hisi.ini \
@@ -1100,7 +1099,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/charger/1080x1920/number_7.png:system/etc/charger/1080x1920/number_7.png \
     vendor/huawei/hi6250/etc/charger/1080x1920/charging_04.png:system/etc/charger/1080x1920/charging_04.png \
     vendor/huawei/hi6250/etc/charger/1080x1920/battery_06.png:system/etc/charger/1080x1920/battery_06.png \
-    vendor/huawei/hi6250/etc/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
     vendor/huawei/hi6250/etc/clatd.conf:system/etc/clatd.conf \
     vendor/huawei/hi6250/etc/multi_task_config.xml:system/etc/multi_task_config.xml \
     vendor/huawei/hi6250/etc/cfg_nemo_l22e_hisi.ini:system/etc/cfg_nemo_l22e_hisi.ini \
@@ -1182,7 +1180,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/huawei/hi6250/etc/wifi/wpa_supplicant_hisi.conf:system/etc/wifi/wpa_supplicant_hisi.conf \
     vendor/huawei/hi6250/etc/cfg_berlin_al30_hisi.ini:system/etc/cfg_berlin_al30_hisi.ini \
-    vendor/huawei/hi6250/etc/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
     vendor/huawei/hi6250/etc/cfg_berlin_l21l_hisi.ini:system/etc/cfg_berlin_l21l_hisi.ini \
     vendor/huawei/hi6250/etc/cfg_berlin_al40_hisi.ini:system/etc/cfg_berlin_al40_hisi.ini \
     vendor/huawei/hi6250/etc/HwFrameworkNormalization.xml:system/etc/HwFrameworkNormalization.xml \
